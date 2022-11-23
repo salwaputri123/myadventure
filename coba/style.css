@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("img1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    font-family:  'comic sans ms';
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+} 
+nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.beranda{
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    transform: translateY(-50%); 
+}
+.beranda h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+.tentangsaya{
+    margin-top: 20%;
+    margin-left: 15%;
+    font-size: 20px;
+}
+.tentangsaya h2{
+    margin-right: 25%;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.galery{
+    margin-left: 45%;
+    margin-top: 20%;
+}
+.galery h2{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+}
+.foto-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+.card-foto{
+    width: 30%;
+    margin: auto;
+
+}
+.card-foto img{
+    width: 270px;
+    border-radius: 50%;
+}
+.kontak{
+    margin-left: 45%;
+    margin-top: 20%;
+    color: white;
+}
+.footer h2{ 
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.img1 {
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #0000;
+}
+.img2 {
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.img3 {
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
